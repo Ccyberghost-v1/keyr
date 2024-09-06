@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEXTER POWER BY HOST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>DEXTER FREE WEB</h1>
+    <h1>SEVERE</h1>
+    <form id="deployForm">
+        <label for="repoName">SERVICE NAME:</label>
+        <input type="text" id="repoName" name="repoName" required>
+        
+        <label for="htmlCode">HTML CODE:</label>
+        <textarea id="htmlCode" name="htmlCode" rows="10" required></textarea>
+        
+        <button type="submit">DEPLOY ❯ 😻</button>
+    </form>
+
+    <div id="wifi-loader" style="display: none;">
+        <svg viewBox="0 0 86 86" class="circle-outer">
+            <circle r="40" cy="43" cx="43" class="back"></circle>
+            <circle r="40" cy="43" cx="43" class="front"></circle>
+            <circle r="40" cy="43" cx="43" class="new"></circle>
+        </svg>
+        <svg viewBox="0 0 60 60" class="circle-middle">
+            <circle r="27" cy="30" cx="30" class="back"></circle>
+            <circle r="27" cy="30" cx="30" class="front"></circle>
+        </svg>
+        <div data-text="Deploying dexter host..." class="text"></div>
+    </div>
+
+    <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
+
+    <div id="dialog">
+        <p>Your site is live at:</p>
+        <input type="text" id="pageUrl" readonly>
+        <br><br>
+        <button id="openBtn">Open URL</button>
+        <button id="copyBtn">Copy URL</button>
+        <button onclick="closeDialog()">Close</button>
+    </div>
+
+    <div class="navbar">
+        <button class="button" onclick="window.location.href='https://new-web-app-phi.vercel.app/home.html'">Home</button>
+        <button class="button" onclick="window.location.href='https://new-web-app-phi.vercel.app/modz.html'">Modz</button>
+        <button class="button" onclick="window.location.href='https://web-wowz.vercel.app/'">Contact Us</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
